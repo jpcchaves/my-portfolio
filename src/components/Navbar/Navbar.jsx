@@ -1,5 +1,6 @@
 // Hooks
 import { useState } from "react";
+import Home from "../../pages/home/Home";
 // Navbar Components
 import {
   NavbarContainer,
@@ -27,6 +28,7 @@ const Navbar = () => {
             <NavbarLink to="/skills">Skills</NavbarLink>
             <NavbarLink to="/projects">Projects</NavbarLink>
             <NavbarLink to="/contact">Contact</NavbarLink>
+            <NavbarLink to="*" element={<Home />} />
             <OpenLinksButton
               onClick={() => setExtendNavbar((currentValue) => !currentValue)}
             >
