@@ -21,7 +21,13 @@ const Home = () => {
         <H1Banner>Desenvolvedor FrontEnd</H1Banner>
         <P>João Paulo</P>
         <ButtonDownload>
-          <DownloadCurriculo>Download Currículo</DownloadCurriculo>
+          <DownloadCurriculo
+            href="https://www.canva.com/design/DAFBKz1wcpc/l33t00PoMuDisCGkyzEh3g/view"
+            download
+            target="_blank"
+          >
+            Download Currículo
+          </DownloadCurriculo>
         </ButtonDownload>
         :
       </Banner>
