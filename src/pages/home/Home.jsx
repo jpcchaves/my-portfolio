@@ -1,7 +1,6 @@
 import {
   Banner,
   H1Banner,
-  Header,
   HomeWrapper,
   Img,
   ImgWrapper,

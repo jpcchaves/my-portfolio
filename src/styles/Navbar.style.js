@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { theme } from "./theme";
 
 export const NavbarContainer = styled.nav`
+  position: absolute;
+  z-index: 1;
   width: 100%;
   height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
   background-color: #000;
