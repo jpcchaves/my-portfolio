@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { theme } from "./theme";
 
 export const NavbarContainer = styled.nav`
   width: 100%;
@@ -40,7 +41,7 @@ export const NavbarLinkContainer = styled.div`
 export const NavbarLink = styled(Link)`
   color: white;
   font-size: x-large;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ${theme.fonts.family.default};
   text-decoration: none;
   margin: 10px;
 
@@ -52,7 +53,7 @@ export const NavbarLink = styled(Link)`
 export const NavbarLinkExtended = styled(Link)`
   color: white;
   font-size: x-large;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ${theme.fonts.family.default};
   text-decoration: none;
   margin: 10px;
 `;

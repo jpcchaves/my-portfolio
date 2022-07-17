@@ -1,6 +1,5 @@
 // Hooks
 import { useState } from "react";
-import Home from "../../pages/home/Home";
 // Navbar Components
 import {
   NavbarContainer,
