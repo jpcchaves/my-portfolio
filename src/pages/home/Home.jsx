@@ -9,7 +9,6 @@ import {
   ButtonDownload,
 } from "../../styles/Home.style";
 import BgImg from "../../assets/home-bg-img/header-bg-img.jpg";
-import About from "../about/About";
 
 const Home = () => {
   return (
@@ -33,7 +32,6 @@ const Home = () => {
           :
         </Banner>
       </HomeWrapper>
-      <About />
     </>
   );
 };
