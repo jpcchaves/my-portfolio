@@ -1,5 +1,6 @@
 // Hooks
 import { useState } from "react";
+import About from "../../pages/about/About";
 // Navbar Components
 import {
   NavbarContainer,

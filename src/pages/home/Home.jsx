@@ -9,28 +9,32 @@ import {
   ButtonDownload,
 } from "../../styles/Home.style";
 import BgImg from "../../assets/home-bg-img/header-bg-img.jpg";
+import About from "../about/About";
 
 const Home = () => {
   return (
-    <HomeWrapper>
-      <ImgWrapper>
-        <Img src={BgImg} alt="Imagem de Fundo" />
-      </ImgWrapper>
-      <Banner>
-        <H1Banner>Desenvolvedor FrontEnd</H1Banner>
-        <P>João Paulo</P>
-        <ButtonDownload>
-          <DownloadCurriculo
-            href="https://www.canva.com/design/DAFBKz1wcpc/l33t00PoMuDisCGkyzEh3g/view"
-            download
-            target="_blank"
-          >
-            Download Currículo
-          </DownloadCurriculo>
-        </ButtonDownload>
-        :
-      </Banner>
-    </HomeWrapper>
+    <>
+      <HomeWrapper>
+        <ImgWrapper>
+          <Img src={BgImg} alt="Imagem de Fundo" />
+        </ImgWrapper>
+        <Banner>
+          <H1Banner>Desenvolvedor FrontEnd</H1Banner>
+          <P>João Paulo</P>
+          <ButtonDownload>
+            <DownloadCurriculo
+              href="https://www.canva.com/design/DAFBKz1wcpc/l33t00PoMuDisCGkyzEh3g/view"
+              download
+              target="_blank"
+            >
+              Download Currículo
+            </DownloadCurriculo>
+          </ButtonDownload>
+          :
+        </Banner>
+      </HomeWrapper>
+      <About />
+    </>
   );
 };
 

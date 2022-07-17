@@ -1,3 +1,5 @@
+// Ref
+import { useRef } from "react";
 // GlobalStyles
 import { GlobalStyles } from "./styles/global-styles";
 // Components

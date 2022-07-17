@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 export const NavbarContainer = styled.nav`
   position: ${(props) => (props.extendNavbar ? "absolute" : "")};
+  top: ${(props) => (props.extendNavbar ? "0" : "")};
   z-index: 1;
   width: 100%;
   height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
