@@ -2,6 +2,8 @@
 import { GlobalStyles } from "./styles/global-styles";
 // Components
 import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
 // Router
 import {
   BrowserRouter as Router,
@@ -9,8 +11,6 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Home from "./pages/home/Home";
-import About from "./pages/about/About";
 
 function App() {
   return (

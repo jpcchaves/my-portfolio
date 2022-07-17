@@ -4,6 +4,7 @@ import { theme } from "./theme";
 export const GlobalStyles = createGlobalStyle`
     html{
         scroll-behavior: smooth;
+        height: 100%;
     }
 
     *{
@@ -13,6 +14,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body{
+        height: 100%;
         font-family: ${theme.fonts.family.default};
         background-color: ${theme.colors.bgColor};
     }

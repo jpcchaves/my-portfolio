@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { theme } from "./theme";
 
 export const HomeWrapper = styled.header`
   width: 100%;
