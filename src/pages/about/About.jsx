@@ -1,12 +1,10 @@
-import { AboutSectionWrapper, P } from "../../styles/About.style";
+import { AboutSectionWrapper, H1, P } from "../../styles/About.style";
 
 const About = () => {
   return (
-    <>
-      <AboutSectionWrapper>
-        <P>Olá mundo</P>
-      </AboutSectionWrapper>
-    </>
+    <AboutSectionWrapper>
+      <H1>Sobre mim</H1>
+    </AboutSectionWrapper>
   );
 };
 
