@@ -8,7 +8,7 @@ export const NavbarContainer = styled.nav`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 700px){
+  @media (min-width: 700px) {
     height: 80px;
   }
 `;
