@@ -3,11 +3,7 @@ import { HomeWrapper } from "../../styles/Home.style";
 const Home = () => {
   return (
     <HomeWrapper>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-        asperiores. Quo ea quis maxime omnis at eaque quae ipsum vero molestias
-        ratione molestiae sint mollitia, id veritatis. Ipsa, quasi voluptatibus.
-      </p>
+      <p>Grandíssima apresentação sobre mim (falta fazer)</p>
     </HomeWrapper>
   );
 };
