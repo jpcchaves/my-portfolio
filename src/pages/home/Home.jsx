@@ -1,9 +1,12 @@
-import { HomeWrapper } from "../../styles/Home.style";
+import { HomeWrapper, Img, ImgWrapper } from "../../styles/Home.style";
+import BgImg from "../../assets/home-bg-img/header-bg-img.jpg";
 
 const Home = () => {
   return (
     <HomeWrapper>
-      <p>Grandíssima apresentação sobre mim (falta fazer)</p>
+      <ImgWrapper>
+        <Img src={BgImg} alt="Imagem de Fundo" />
+      </ImgWrapper>
     </HomeWrapper>
   );
 };
