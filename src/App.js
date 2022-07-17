@@ -3,7 +3,12 @@ import "./App.css";
 // Components
 import Navbar from "./components/Navbar/Navbar";
 // Router
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 
@@ -17,6 +22,7 @@ function App() {
         <Route path="/contact" element={<Home />} />
         <Route path="/skills" />
         <Route path="/projects" />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Router>
   );
