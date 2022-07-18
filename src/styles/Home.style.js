@@ -36,6 +36,11 @@ export const Banner = styled.div`
   position: absolute;
   top: 40%;
   left: 15%;
+
+  @media (max-width: 700px) {
+    top: 35%;
+    left: 8%;
+  }
 `;
 
 export const H1Banner = styled.h1`
@@ -58,6 +63,10 @@ export const H1Banner = styled.h1`
       opacity: 1;
     }
   }
+
+  @media (max-width: 700px) {
+    font-size: 2.2rem;
+  }
 `;
 
 export const P = styled.p`
@@ -77,6 +86,10 @@ export const P = styled.p`
       transform: translateY(0) rotateY(0);
       opacity: 1;
     }
+  }
+
+  @media (max-width: 700px) {
+    font-size: 1.5rem;
   }
 `;
 
@@ -99,6 +112,11 @@ export const ButtonDownload = styled.button`
     opacity: 0.8;
     color: black;
     font-weight: bolder;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 0.8rem;
+    padding: 0.8rem 0.6rem;
   }
 `;
 
