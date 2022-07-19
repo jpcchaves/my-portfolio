@@ -38,11 +38,33 @@ const Navbar = () => {
       </NavbarInnerContainer>
       {extendNavbar && (
         <NavbarExtendedContainer>
-          <NavbarLinkExtended to="/">Home</NavbarLinkExtended>
-          <NavbarLinkExtended to="/about">About</NavbarLinkExtended>
-          <NavbarLinkExtended to="/skills">Skills</NavbarLinkExtended>
-          <NavbarLinkExtended to="/projects">Projects</NavbarLinkExtended>
-          <NavbarLinkExtended to="/contact">Contact</NavbarLinkExtended>
+          <NavbarLinkExtended to="/" onClick={() => setExtendNavbar(false)}>
+            Home
+          </NavbarLinkExtended>
+          <NavbarLinkExtended
+            to="/about"
+            onClick={() => setExtendNavbar(false)}
+          >
+            About
+          </NavbarLinkExtended>
+          <NavbarLinkExtended
+            to="/skills"
+            onClick={() => setExtendNavbar(false)}
+          >
+            Skills
+          </NavbarLinkExtended>
+          <NavbarLinkExtended
+            to="/projects"
+            onClick={() => setExtendNavbar(false)}
+          >
+            Projects
+          </NavbarLinkExtended>
+          <NavbarLinkExtended
+            to="/contact"
+            onClick={() => setExtendNavbar(false)}
+          >
+            Contact
+          </NavbarLinkExtended>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>
