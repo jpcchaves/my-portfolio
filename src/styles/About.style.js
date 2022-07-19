@@ -15,4 +15,5 @@ export const P = styled.p`
   text-align: center;
   width: 70%;
   margin: 0 auto;
+  line-height: 1.5rem;
 `;
