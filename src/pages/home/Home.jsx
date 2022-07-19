@@ -18,7 +18,7 @@ const Home = () => {
           <Img src={BgImg} alt="Imagem de Fundo" />
         </ImgWrapper>
         <Banner>
-          <H1Banner>Desenvolvedor FrontEnd</H1Banner>
+          <H1Banner>Desenvolvedor Front-End</H1Banner>
           <P>João Paulo</P>
           <ButtonDownload>
             <DownloadCurriculo
@@ -26,7 +26,7 @@ const Home = () => {
               download
               target="_blank"
             >
-              Download Currículo
+              Currículo
             </DownloadCurriculo>
           </ButtonDownload>
           :

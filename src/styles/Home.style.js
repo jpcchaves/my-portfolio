@@ -34,12 +34,12 @@ export const Img = styled.img`
 
 export const Banner = styled.div`
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 15%;
 
   @media (max-width: 700px) {
     top: 35%;
-    left: 8%;
+    left: 5%;
   }
 `;
 
@@ -48,8 +48,8 @@ export const H1Banner = styled.h1`
   font-size: 3rem;
   font-weight: 200;
   text-shadow: 0.2rem 0.3rem 2px rgba(0, 0, 0, 0.336);
-  line-height: 3.5rem;
-  margin-bottom: 2rem;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
   opacity: 0;
   animation: moveBanner 0.5s forwards;
 
@@ -65,7 +65,7 @@ export const H1Banner = styled.h1`
   }
 
   @media (max-width: 700px) {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
   }
 `;
 
@@ -89,7 +89,7 @@ export const P = styled.p`
   }
 
   @media (max-width: 700px) {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 `;
 
@@ -107,6 +107,7 @@ export const ButtonDownload = styled.button`
   cursor: pointer;
   opacity: 0;
   animation: moveBanner 2s forwards;
+  transition: .2s ease-in-out;
 
   :hover {
     opacity: 0.8;
