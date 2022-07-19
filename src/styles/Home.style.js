@@ -107,7 +107,7 @@ export const ButtonDownload = styled.button`
   cursor: pointer;
   opacity: 0;
   animation: moveBanner 2s forwards;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 
   :hover {
     opacity: 0.8;
