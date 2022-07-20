@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HomeWrapper = styled.header`
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 `;
 
 export const ImgWrapper = styled.div`
@@ -18,12 +18,12 @@ export const Img = styled.img`
   height: 100%;
   overflow: hidden;
   object-fit: cover;
-  opacity: 0.6;
-  animation: zoom 15s;
+  opacity: 0.5;
+  animation: zoom 18s;
 
   @keyframes zoom {
     0% {
-      transform: scale(1.5);
+      transform: scale(1.8);
     }
 
     100% {
