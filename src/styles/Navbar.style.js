@@ -61,12 +61,14 @@ export const NavbarLinkExtended = styled(Link)`
 `;
 
 export const OpenLinksButton = styled.button`
-  line-height: 2rem;
   width: 2rem;
   height: 2rem;
+  padding: 0;
+  line-height: 2rem;
   border: none;
+  outline: none;
   color: white;
-  border-radius: 5px;
+  border-radius: 20%;
   font-size: 1.6rem;
   background-color: ${theme.colors.buttonColor};
   cursor: pointer;
