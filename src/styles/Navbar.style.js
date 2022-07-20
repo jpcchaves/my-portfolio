@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from "./theme";
 import { Link } from "react-router-dom";
 
 export const NavbarContainer = styled.nav`
@@ -38,6 +39,7 @@ export const NavbarInnerContainer = styled.div`
 
 export const NavbarLinkContainer = styled.div`
   display: flex;
+  text-align: center;
 `;
 
 export const NavbarLink = styled(Link)`
@@ -59,12 +61,14 @@ export const NavbarLinkExtended = styled(Link)`
 `;
 
 export const OpenLinksButton = styled.button`
-  width: 70px;
-  height: auto;
-  background: none;
+  line-height: 2rem;
+  width: 2rem;
+  height: 2rem;
   border: none;
   color: white;
-  font-size: 45px;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  background-color: ${theme.colors.buttonColor};
   cursor: pointer;
 
   @media (min-width: 700px) {

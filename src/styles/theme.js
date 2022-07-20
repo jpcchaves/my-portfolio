@@ -1,6 +1,7 @@
 export const theme = {
   colors: {
     bgColor: "#e9ecef",
+    buttonColor: "#00b4db",
   },
   fonts: {
     family: {

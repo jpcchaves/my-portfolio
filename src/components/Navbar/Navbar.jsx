@@ -30,7 +30,7 @@ const Navbar = () => {
             <OpenLinksButton
               onClick={() => setExtendNavbar((currentValue) => !currentValue)}
             >
-              {extendNavbar ? <>&#10005;</> : <>&#8801;</>}
+              {extendNavbar ? <>&#128939;</> : <>&#8801;</>}
             </OpenLinksButton>
           </NavbarLinkContainer>
         </LeftContainer>
