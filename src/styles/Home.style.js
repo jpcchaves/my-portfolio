@@ -3,34 +3,31 @@ import styled from "styled-components";
 export const HomeWrapper = styled.header`
   width: 100%;
   height: 90vh;
-  overflow: hidden;
 `;
 
 export const ImgWrapper = styled.div`
-  overflow: hidden;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.8);
 `;
 
 export const Img = styled.img`
-  object-fit: cover;
-  object-position: 60%;
+  display: block;
   width: 100%;
   height: 100%;
   overflow: hidden;
+  object-fit: cover;
   opacity: 0.5;
-  animation: zoom 15s;
+  animation: zoom 18s;
 
   @keyframes zoom {
     0% {
-      transform: scale(1.5);
-      object-position: 60%;
+      transform: scale(1.8);
     }
 
     100% {
       transform: scale(1);
-      object-position: 80%;
     }
   }
 `;
