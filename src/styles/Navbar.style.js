@@ -2,12 +2,16 @@ import styled, { css } from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavbarContainer = styled.nav`
+  ${(props) => css`
+    background-color: ${props.extendNavbar
+      ? props.theme.colors.blackColorBlur
+      : props.theme.colors.blackColor};
+  `}
   position: ${(props) => (props.extendNavbar ? "absolute" : "")};
   top: ${(props) => (props.extendNavbar ? "0" : "")};
-  z-index: 1;
+  z-index: 2;
   width: 100%;
-  height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
-  background-color: #000;
+  height: ${(props) => (props.extendNavbar ? "100vh" : "10vh")};
   display: flex;
   flex-direction: column;
 
