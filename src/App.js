@@ -11,22 +11,26 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+import { ThemeProvider } from "styled-components";
+import { theme } from "./styles/theme";
 
 function App() {
   return (
     <>
       <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" />
-          <Route path="/skills" />
-          <Route path="/projects" />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
+        <ThemeProvider theme={theme}>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" />
+            <Route path="/skills" />
+            <Route path="/projects" />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+          <GlobalStyles />
+        </ThemeProvider>
       </Router>
-      <GlobalStyles />
     </>
   );
 }

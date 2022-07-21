@@ -1,5 +1,4 @@
-import styled from "styled-components";
-import { theme } from "./theme";
+import styled, { css } from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavbarContainer = styled.nav`
@@ -61,6 +60,9 @@ export const NavbarLinkExtended = styled(Link)`
 `;
 
 export const OpenLinksButton = styled.button`
+  ${({ theme }) => css`
+    background-color: ${theme.colors.buttonColor};
+  `}
   width: 2rem;
   height: 2rem;
   padding: 0;
@@ -70,7 +72,6 @@ export const OpenLinksButton = styled.button`
   color: white;
   border-radius: 20%;
   font-size: 1.6rem;
-  background-color: ${theme.colors.buttonColor};
   cursor: pointer;
 
   @media (min-width: 700px) {
