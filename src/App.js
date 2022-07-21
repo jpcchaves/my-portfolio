@@ -17,8 +17,8 @@ import { theme } from "./styles/theme";
 function App() {
   return (
     <>
-      <Router>
-        <ThemeProvider theme={theme}>
+      <ThemeProvider theme={theme}>
+        <Router>
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -29,8 +29,8 @@ function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           <GlobalStyles />
-        </ThemeProvider>
-      </Router>
+        </Router>
+      </ThemeProvider>
     </>
   );
 }
