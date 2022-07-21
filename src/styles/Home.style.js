@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HomeWrapper = styled.header`
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   overflow: hidden;
 `;
 
