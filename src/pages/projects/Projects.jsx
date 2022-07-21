@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <>
+    <div id="projects">
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum sunt
         labore praesentium aperiam veniam ducimus in harum quia quaerat optio?
@@ -36,7 +36,7 @@ const Projects = () => {
         Sit at laborum inventore blanditiis, odit quo deserunt nam quia
         accusamus? Quibusdam magni doloremque mollitia similique incidunt.
       </p>
-    </>
+    </div>
   );
 };
 

@@ -22,11 +22,56 @@ const Navbar = () => {
       <NavbarInnerContainer>
         <LeftContainer>
           <NavbarLinkContainer>
-            <NavbarLink to="/" spy={true} smooth={true} offset={50} duration={500}>Home</NavbarLink>
-            <NavbarLink to="about" spy={true} smooth={true} offset={50} duration={500}>About</NavbarLink>
-            <NavbarLink to="/skills">Skills</NavbarLink>
-            <NavbarLink to="/projects">Projects</NavbarLink>
-            <NavbarLink to="/contact">Contact</NavbarLink>
+            <NavbarLink
+              to="/"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Home
+            </NavbarLink>
+
+            <NavbarLink
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              About
+            </NavbarLink>
+
+            <NavbarLink
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Skills
+            </NavbarLink>
+
+            <NavbarLink
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Projects
+            </NavbarLink>
+
+            <NavbarLink
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Contact
+            </NavbarLink>
+
             <OpenLinksButton
               onClick={() => setExtendNavbar((currentValue) => !currentValue)}
             >
