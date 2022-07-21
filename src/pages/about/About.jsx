@@ -2,7 +2,7 @@ import { AboutSectionWrapper, H1, P } from "../../styles/About.style";
 
 const About = () => {
   return (
-    <AboutSectionWrapper>
+    <AboutSectionWrapper id="about">
       <H1>Sobre mim</H1>
       <P>
         Direciono meus esforços para o aperfeiçoamento das habilidades com as

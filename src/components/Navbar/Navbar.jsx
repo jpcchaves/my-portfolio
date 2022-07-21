@@ -22,8 +22,8 @@ const Navbar = () => {
       <NavbarInnerContainer>
         <LeftContainer>
           <NavbarLinkContainer>
-            <NavbarLink to="/">Home</NavbarLink>
-            <NavbarLink to="/about">About</NavbarLink>
+            <NavbarLink to="/" spy={true} smooth={true} offset={50} duration={500}>Home</NavbarLink>
+            <NavbarLink to="about" spy={true} smooth={true} offset={50} duration={500}>About</NavbarLink>
             <NavbarLink to="/skills">Skills</NavbarLink>
             <NavbarLink to="/projects">Projects</NavbarLink>
             <NavbarLink to="/contact">Contact</NavbarLink>

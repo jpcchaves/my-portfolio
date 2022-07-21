@@ -13,7 +13,7 @@ import BgImg from "../../assets/home-bg-img/header-bg-img.jpg";
 const Home = () => {
   return (
     <>
-      <HomeWrapper>
+      <HomeWrapper id="home">
         <ImgWrapper>
           <Img src={BgImg} alt="Imagem de Fundo" />
         </ImgWrapper>

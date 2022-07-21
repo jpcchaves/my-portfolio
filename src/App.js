@@ -11,6 +11,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+// styled
 import { ThemeProvider } from "styled-components";
 import { theme } from "./styles/theme";
 
@@ -28,6 +29,7 @@ function App() {
             <Route path="/projects" />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
+          <About/>
           <GlobalStyles />
         </Router>
       </ThemeProvider>
