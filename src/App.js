@@ -24,7 +24,6 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <Router>
-          <ButtonTop />
           <Navbar />
           <Home />
           {/* <Routes>
@@ -39,6 +38,7 @@ function App() {
           <Skills />
           <Projects />
           <Contact />
+          <ButtonTop />
           <GlobalStyles />
         </Router>
       </ThemeProvider>

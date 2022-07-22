@@ -1,9 +1,7 @@
 // Hooks
 import { useEffect, useState } from "react";
-// Utils
-import { classNames } from "../../utils/classNames";
-import { Button } from "./style";
 // styled-components
+import { Button } from "./style";
 
 const ButtonTop = () => {
   const [isVisible, setVisibility] = useState(false);
@@ -33,10 +31,7 @@ const ButtonTop = () => {
 
   return (
     <>
-      <Button
-        type="button"
-        onClick={scrollToTop}
-      >
+      <Button type="button" onClick={scrollToTop} isVisible={isVisible}>
         &#9650;
       </Button>
     </>
