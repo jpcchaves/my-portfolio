@@ -47,6 +47,8 @@ export const NavbarLinkContainer = styled.div`
 
 export const NavbarLink = styled(Link)`
   color: white;
+  cursor: pointer;
+  padding: 5px;
   font-size: x-large;
   text-decoration: none;
   margin: 10px;
@@ -58,6 +60,8 @@ export const NavbarLink = styled(Link)`
 
 export const NavbarLinkExtended = styled(Link)`
   color: white;
+  cursor: pointer;
+  padding: 5px;
   font-size: x-large;
   text-decoration: none;
   margin: 10px;
