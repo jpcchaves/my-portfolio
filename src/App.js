@@ -17,12 +17,14 @@ import { ThemeProvider } from "styled-components";
 import { theme } from "./styles/theme";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
+import ButtonTop from "./components/ButtonTop";
 
 function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
         <Router>
+          <ButtonTop />
           <Navbar />
           <Home />
           {/* <Routes>
